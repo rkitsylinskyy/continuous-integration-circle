@@ -52,5 +52,5 @@ workflows:
     jobs:
       - build
       - testlinks
-#           requires:
-#             - build
+          requires:
+            - build
